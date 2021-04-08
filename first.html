@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Web Page</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #para{
+            font-weight: 30;
+            text-decoration-color: aqua;
+
+        }
+        
+        .h1{
+            text-align : center; 
+            font-size : 20px;
+            font-weight : 20;
+        }
+        #h2{
+            color: red;
+        }
+        #h5{
+            color : blue;
+        }
+        
+        a:hover {
+            color : purple;
+        }
+        #students th{
+            text-align: left;
+        }
+        #students tr:hover{
+            background-color: white;
+
+        }
+        #students td:hover{
+            background-color: gray;
+        }
+        #students tr {
+            background-color: greenyellow;
+            font-size: large;
+            font-weight: 30;
+            border-top:red ;
+        }
+        
+        #students td{
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:medium;
+        }
+        .company p{
+            text-align: left;
+        }
+        
+       
+        .navbar{
+            display: flex;
+        }
+        .nav-right{
+            width: 50%;
+            background-color: yellow;
+            text-align: right;
+        }
+        .nav-list{
+            width: 50%;
+            background-color:gray;
+        }
+        .logo{
+            
+        }
+        
+
+
+        
+    </style>
+    <link rel="stylsheet" type="text/css" href="./change.css">
+</head>
+<body >
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo" width="200" height="100"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">About</a></li>
+            <li><a href="#home">Services</a></li>
+            <li><a href="#home">Conatct Us</a></li>
+        </ul>
+        <div class="nav-right">
+            <input type="text" name="search" id="search">
+            <button class="bttn btn-smal">Search</button>
+        </div>
+
+
+    </nav>
+
+
+    <h1 class="h1">I am much large</h1>
+    <h2 class="h1" id="h2">I am  much large</h2>
+    <h3 class="h1">I am this much large</h3>
+    <h4 class="h1">I am this much large</h4>
+    <h5 class="h1" id="h5">I am this much large</h5>
+    <h6 class="h1">I am this much large</h6>
+
+    <hr>
+
+    <p id="para">
+        She looked at her student wondering if she could ever get through.
+         "You need to learn to think for yourself," she wanted to tell him. 
+         "Your friends are holding you back and bringing you down.
+         " But she didn't because she knew his friends were all 
+        that he had and even if that meant a life of misery, he would never give them up.
+    </p>
+
+    <hr>
+
+    <span style="background-color: grey; border: 10px; color: indigo;">
+        A long black shadow slid across the pavement near their feet and the five Venusians, 
+        very much startled, looked overhead.
+    </span>
+
+    <hr>
+
+    <un>
+        <h4 style="color : red; font-size:medium;">Grocery List</h4>
+        <li>Pulses</li>
+        <li>Rice</li>
+        <li>Wheat</li>
+    </un>
+
+    <hr>
+
+    <ol>
+        <h4>Vegetables List</h4>
+        <li>Capsicum</li>
+        <li>Tomato</li>
+        <li>Onion</li>
+    </ol>
+
+    <hr>
+
+    <a href="https://www.google.com" target='_blank'>Google</a> <br>
+    <a href="https://www.w3schools.com/html/" target='_blank'>w3schools</a>
+
+    <hr>
+
+    <div>
+        <h4>This is a div tag</h4>
+        <p>For oil spots on the floor, nothing beats parking a motorbike in the lounge.</p>
+        <p>I really want to go to work, but I am too sick to drive.</p>
+        
+    </div>
+
+    <h1 style="background-color:Tomato;">Tomato</h1>
+    <h1 style="background-color:Orange;">Orange</h1>
+    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+    <h1 style="background-color:Gray;">Gray</h1>
+    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+    <h1 style="background-color:Violet;">Violet</h1>
+    <h1 style="background-color:LightGray;">LightGray</h1>
+
+    <table id="students">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>10 Marks</th>
+            <th>Passing Year</th>
+            <th>12 Marks</th>
+            <th>Passing Year</th>
+            <th>MarkSheet Link</th>
+            
+        </tr>
+        <tr>
+            <td>Prince Kumar</td>
+            <td>23</td>
+            <td>78 %</td>
+            <td>2014</td>
+            <td>60 %</td>
+            <td>2016</td>
+            <th><a href="https://cbseresults.nic.in/class12_compt_2020/Class12th20Compt.htm" target="_blank">Prince MarkSheet</a></th>
+        </tr>
+        <tr>
+            <td>Rahul Pal</td>
+            <td>23</td>
+            <td>70 %</td>
+            <td>2014</td>
+            <td>65 %</td>
+            <td>2016</td>
+            <th><a href="https://cbseresults.nic.in/class12_compt_2020/Class12th20Compt.htm" target="_blank">Rahul MarkSheet</a></th>
+        </tr>
+        <tr>
+            <td>Samim Biswas</td>
+            <td>23</td>
+            <td>70 %</td>
+            <td>2014</td>
+            <td>80 %</td>
+            <td>2016</td>
+            <th><a href="https://cbseresults.nic.in/class12_compt_2020/Class12th20Compt.htm" target="_blank">Samim MarkSheet</a></th>
+        </tr>
+
+        <form>
+            <input type="text"  >
+
+        </form>
+        
+    </table>
+
+    <div class="company">
+        <div class="company">
+            <p>Company</p>
+        </div>
+    </div>
+
+ 
+    
+</body>
+</html>
